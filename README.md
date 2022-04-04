@@ -10,6 +10,7 @@ Também é possível realizar o cadastro manual de um torcedor através de um fo
 
 Tudo é registrado em um banco de dados MySQL.
 
+(Desenvolvi as funcionalidades que acredito serem essenciais, ainda há muito espaço para melhorias e features, mas dado o tempo do desafio foquei em desenvolver o básico para o funcionamento pleno do sistema).
   
 
 ## 🚀 Começando
