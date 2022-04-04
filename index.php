@@ -1,9 +1,5 @@
 <?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
     require_once("Functions.php");
-    //CadastrarTorcedor("Sra. Elizabeth Flores Franco Filho", "873.335.385-91", "52927-611", "Av. Quintana, 59571. Bloco C", "Evandro do Sul", "So Irene", "PR", "(41) 3529-4394", "dserna@terra.com.br", "1");
 ?>
 
 <!DOCTYPE html>

@@ -14,9 +14,8 @@ function lerXML($name, $temp_name) {
     }
 
     $file = fopen("uploads/clientes.xml","r") or die("Unable to open file!");
-
-
     $xml = simplexml_load_string(fread($file, filesize("uploads/clientes.xml")));
+    unlink($target_file);
 
     return $xml;
 }
@@ -38,9 +37,6 @@ function cadastrarTorcedorXML($xml_torcedores) {
         } else {
             $ativo = $torcedor['ativo'];
         }
-
-
-        //$obj_torcedor = new Torcedor($nome, $documento, $cep, $endereco, $bairro, $cidade, $uf, $telefone, $email, $ativo);
 
         $conexao = new Banco();
 

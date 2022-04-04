@@ -1,13 +1,8 @@
 <?php
-    ini_set('display_errors', 1);
-    ini_set('display_startup_errors', 1);
-    error_reporting(E_ALL);
-
     require_once("Functions.php");
 
+    //Leitura de arquivo xml
     $xml = lerXML($_FILES["xml"]["name"], $_FILES["xml"]["tmp_name"]);
 
     cadastrarTorcedorXML($xml);    
-
-    //$myfile = fopen("", "r") or die("Unable to open file!");
 ?>
